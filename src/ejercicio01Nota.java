@@ -39,7 +39,7 @@ public class ejercicio01Nota {
         System.out.println("Suficiente.");
       } else if (nota == 6) {
         System.out.println("Bien.");
-      } else if (nota >= 7 && nota <= 8) {
+      } else if (nota == 7 || nota == 8) {
         System.out.println("Notable.");
       } else {
         System.out.println("Sobresaliente.");
